@@ -3,7 +3,7 @@ let values = [];
 let i = 0, j = 0, w = 5;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(displayWidth, displayHeight);
   colorMode(HSB, height);
   
   values = new Array(floor(width / w));
